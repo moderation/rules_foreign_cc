@@ -12,7 +12,6 @@ TOOLCHAIN_MAPPINGS = [
         exec_compatible_with = [
             "@bazel_tools//platforms:linux",
             "@bazel_tools//platforms:aarch64",
-            "@bazel_tools//platforms:x86_64",
         ],
         file = "@rules_foreign_cc//tools/build_defs/shell_toolchain/toolchains/impl:linux_commands.bzl",
     ),
